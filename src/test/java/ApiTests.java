@@ -3,7 +3,7 @@ import my.apitests.UserActions;
 import org.testng.annotations.Test;
 
 
-public class Tests {
+public class ApiTests {
 
     @Test
     public void AuthTests() {
