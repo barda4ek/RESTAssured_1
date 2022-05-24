@@ -14,8 +14,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static specification.Specs.*;
 
-
-
 @Listeners(LogListener.class)
 public class AuthActions {
 
