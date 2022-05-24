@@ -18,6 +18,8 @@ import static specification.Specs.*;
 @Listeners(LogListener.class)
 public class UserActions implements CRUD{
 
+
+    //Second comment
     @Step("Create user")
     public void create() {
         UserRequest testBody = new UserRequest();
