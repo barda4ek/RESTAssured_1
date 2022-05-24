@@ -3,7 +3,7 @@ import my.apitests.UserActions;
 import org.testng.annotations.Test;
 
 
-public class ApiTests {
+public class Tests {
 
     @Test
     public void AuthTests() {
@@ -24,5 +24,6 @@ public class ApiTests {
         test.delete();
         test.userNotFound();
     }
+
 
 }
